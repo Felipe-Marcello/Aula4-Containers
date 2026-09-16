@@ -1,0 +1,3 @@
+root@ubuntu:~$ docker exec web-aula4 sh -c \ 'echo "<h1>Aula 4 - Computacao em Nuvem</h1><p>Meu primeiro container!</p>">/usr/share/nginx/html/index.html'
+root@ubuntu:~$ curl localhost:8080
+<h1>Aula 4 - Computacao em Nuvem</h1><p>Meu primeiro container!</p>
