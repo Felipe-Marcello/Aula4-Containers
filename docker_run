@@ -1,0 +1,14 @@
+root@ubuntu:~$ docker run -d --name web-aula4 -p 8080:80 nginx:alpine
+Unable to find image 'nginx:alpine' locally
+alpine: Pulling from library/nginx
+55afa1ecc21d: Pull complete 
+7c95cc9bf7aa: Pull complete 
+cfc08d7798ef: Pull complete 
+ff72fbf3f580: Pull complete 
+c73463be665b: Pull complete 
+c40008edd350: Pull complete 
+edd6b88cb27d: Pull complete 
+251741e0fff4: Pull complete 
+Digest: sha256:c8497b180665e631ec92a5091125bec5b214f0e2b99409e30653a125b37557da
+Status: Downloaded newer image for nginx:alpine
+3ae29bc6c47addfd2b2e05e581c66514d034752c9ce2e2022bc138254142480a
