@@ -1,0 +1,3 @@
+root@ubuntu:~$ docker stats --no-stream
+CONTAINER ID   NAME        CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O     PIDS
+3ae29bc6c47a   web-aula4   0.00%     2.695MiB / 1.859GiB   0.14%     2.49kB / 2.41kB   0B / 20.5kB   2
