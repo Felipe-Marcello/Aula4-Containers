@@ -1,0 +1,2 @@
+root@ubuntu:~$ docker stop web-aula4
+web-aula4
