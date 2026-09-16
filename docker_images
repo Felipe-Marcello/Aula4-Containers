@@ -1,0 +1,4 @@
+root@ubuntu:~$ docker images
+                                                                                                        i Info →   U  In Use
+IMAGE                ID             DISK USAGE   CONTENT SIZE   EXTRA
+hello-world:latest   e2ac70e7319a       10.1kB             0B    U   
