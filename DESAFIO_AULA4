@@ -1,0 +1,37 @@
+root@ubuntu:~$ docker run -d --name desafio-aula4 -p 8081:80 nginx:alpine
+b6cac5c7a15b575fca2a321ec14329c0f9f19e8f83e469856df72b6a416d3c55
+root@ubuntu:~$ docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS         PORTS                                     NAMES
+b6cac5c7a15b   nginx:alpine   "/docker-entrypoint.…"   10 seconds ago   Up 9 seconds   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   desafio-aula4
+root@ubuntu:~$ curl localhost:8081
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, nginx is successfully installed and working.
+Further configuration is required for the web server, reverse proxy, 
+API gateway, load balancer, content cache, or other features.</p>
+
+<p>For online documentation and support please refer to
+<a href="https://nginx.org/">nginx.org</a>.<br/>
+To engage with the community please visit
+<a href="https://community.nginx.org/">community.nginx.org</a>.<br/>
+For enterprise grade support, professional services, additional 
+security features and capabilities please refer to
+<a href="https://f5.com/nginx">f5.com/nginx</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+root@ubuntu:~$ docker stop desafio-aula4
+desafio-aula4
+root@ubuntu:~$ docker rm desafio-aula4
+desafio-aula4
